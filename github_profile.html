@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chetan Rathore | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      scroll-behavior: smooth;
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: #00BFFF;
+    }
+
+    a {
+      text-decoration: none;
+      color: #00BFFF;
+      transition: 0.3s;
+    }
+    a:hover {
+      text-shadow: 0 0 10px #00BFFF;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #0d0d0d;
+    }
+    .nav-link {
+      color: #f5f5f5 !important;
+      transition: 0.3s;
+    }
+    .nav-link:hover {
+      color: #00BFFF !important;
+      text-shadow: 0 0 10px #00BFFF;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 120px 20px 100px;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #00BFFF;
+      box-shadow: 0 0 25px #00BFFF;
+      margin-bottom: 20px;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { box-shadow: 0 0 15px #00BFFF; }
+      to { box-shadow: 0 0 35px #00BFFF; }
+    }
+
+    .btn-unique {
+      border: 1px solid #00BFFF;
+      background: transparent;
+      color: #00BFFF;
+      transition: 0.3s;
+    }
+    .btn-unique:hover {
+      background: #00BFFF;
+      color: #0d0d0d;
+      box-shadow: 0 0 20px #00BFFF;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 80px 20px;
+    }
+
+    /* Skills */
+    .skill-card {
+      border: 1px solid #00BFFF;
+      background-color: #1a1a1a;
+      color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+    .skill-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #00BFFF;
+    }
+
+    /* Projects */
+    .project-card {
+      border: 2px solid #00BFFF;
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 0 25px #00BFFF;
+    }
+
+    /* Stats */
+    .stat {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #00BFFF;
+      text-shadow: 0 0 10px #00BFFF;
+    }
+
+    /* Form */
+    .form-control {
+      border: 1px solid #00BFFF;
+      background: transparent;
+      color: #fff;
+    }
+    .form-control:focus {
+      border-color: #00BFFF;
+      box-shadow: 0 0 15px #00BFFF;
+      background: transparent;
+      color: #fff;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      color: #00BFFF;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 -2px 15px #00BFFF;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-unique" href="#">Chetan Rathore</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home" data-aos="fade-up">
+    <img src="1734716342931.jfif" alt="Chetan Rathore">
+    <h1>Chetan Rathore</h1>
+    <h3>Aspiring Python with Gen AI Developer | BCA Student</h3>
+    <p>"I build efficient and scalable applications with a strong foundation in Java, SQL, Python, and web technologies."</p>
+    <a href="#" class="btn btn-unique">Download CV</a>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="container" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>Hi, I'm Chetan Rathore, a dedicated and passionate tech enthusiast currently pursuing a Bachelor of Computer Applications (BCA) from Sant Singaji Institute of Science and Management.  
+    I specialize in Python, Java, SQL, HTML, and CSS, and I’m currently expanding my skills in JavaScript to become a full-stack developer.  
+    I enjoy solving problems through code and continuously improving my technical skills by taking on new challenges.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="container" data-aos="fade-left">
+    <h2>What I Do</h2>
+    <ul>
+      <li>Full-Stack Web Development (Java, Python, SQL, JavaScript)</li>
+      <li>Responsive Web Design</li>
+      <li>Database Management (MySQL)</li>
+      <li>API Integration & Backend Development</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container" data-aos="zoom-in">
+    <h2>My Skills</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3"><div class="skill-card">Java ⭐⭐⭐⭐☆</div></div>
+      <div class="col-md-4 mb-3"><div class="skill-card">Python ⭐⭐⭐⭐☆</div></div>
+      <div class="col-md-4 mb-3"><div class="skill-card">MySQL ⭐⭐⭐⭐☆</div></div>
+      <div class="col-md-4 mb-3"><div class="skill-card">HTML/CSS ⭐⭐⭐⭐☆</div></div>
+      <div class="col-md-4 mb-3"><div class="skill-card">JavaScript (Learning) ⭐⭐⭐☆☆</div></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3"><div class="project-card">Student Management System (Java + SQL)</div></div>
+      <div class="col-md-4 mb-3"><div class="project-card">Portfolio Website</div></div>
+      <div class="col-md-4 mb-3"><div class="project-card">Small Business Inventory App</div></div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="container text-center" data-aos="fade-up">
+    <h2>Stats</h2>
+    <div class="row">
+      <div class="col-md-3"><p class="stat">5+</p><p>Projects Completed</p></div>
+      <div class="col-md-3"><p class="stat">2</p><p>Certifications Achieved</p></div>
+      <div class="col-md-3"><p class="stat">1</p><p>Workshop Attended</p></div>
+      <div class="col-md-3"><p class="stat">1+ Years</p><p>Coding Experience</p></div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="container" data-aos="fade-right">
+    <h2>Certifications</h2>
+    <ul>
+        <li>Java by SSISM</li>
+      <li>SQL (Basic)</li>
+      <li>AI Tools Workshop</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="container" data-aos="fade-left">
+    <h2>Testimonials</h2>
+    <blockquote>“Very dedicated and hardworking developer, capable of delivering robust web solutions. Highly recommend working with him.”</blockquote>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container" data-aos="zoom-in">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:chetanchetan53419@gmail.com">chetanchetan53419@gmail.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/chetan-rathore01" target="_blank">linkedin.com/in/chetan-rathore01</a></p>
+
+    <form>
+      <div class="mb-3"><input type="text" class="form-control" placeholder="Name"></div>
+      <div class="mb-3"><input type="email" class="form-control" placeholder="Email"></div>
+      <div class="mb-3"><input type="text" class="form-control" placeholder="Subject"></div>
+      <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Message"></textarea></div>
+      <button type="submit" class="btn btn-unique">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Chetan Rathore | All Rights Reserved
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
